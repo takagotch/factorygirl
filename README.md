@@ -13,6 +13,19 @@
     - customers.rb
     - orders.rb
 
+---
+fixtures seed 
+
+```
+bundle exec rails -T
+rails db:fixtures:load
+rails db:migrate #seed
+
+export RAILS_TEST=test
+rails db:migrate
+rails db:fixtures:load
+rails db:seed
+```
 
 
 
