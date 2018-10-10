@@ -27,5 +27,12 @@ rails db:fixtures:load
 rails db:seed
 ```
 
+---
 
+https://github.com/thoughtbot/factory_bot
+
+```
+gem 'factory_bot'
+gem install factory_bot
+```
 
